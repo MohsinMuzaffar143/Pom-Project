@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Registration]">
+  <test thread-count="5" name="registration_test(failed)">
+    <classes>
+      <class name="com.qa.Tests.RegistrationTests">
+        <methods>
+          <include name="validateAllgood"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- com.qa.Tests.RegistrationTests -->
+    </classes>
+  </test> <!-- registration_test(failed) -->
+</suite> <!-- Failed suite [Registration] -->
