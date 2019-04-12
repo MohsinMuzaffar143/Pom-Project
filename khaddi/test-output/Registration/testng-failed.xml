@@ -5,7 +5,8 @@
     <classes>
       <class name="com.qa.Tests.RegistrationTests">
         <methods>
-          <include name="validateAllgood"/>
+          <include name="FirstNameEmpty"/>
+          <include name="LastNameEmpty"/>
           <include name="launch"/>
         </methods>
       </class> <!-- com.qa.Tests.RegistrationTests -->

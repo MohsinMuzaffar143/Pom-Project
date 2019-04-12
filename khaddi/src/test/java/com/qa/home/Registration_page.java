@@ -1,6 +1,5 @@
-package com.qa.pages;
+package com.qa.home;
 import com.qa.baseMethods.PoiExcelMethods;
-
 
 import java.io.IOException;
 import java.util.Locale;
@@ -25,7 +24,7 @@ public class Registration_page {
 		
 		this.driver1=driver;
 		
-		 element= ResourceBundle.getBundle("com.qa.Tests.registration", Locale.US);
+		 element= ResourceBundle.getBundle("registration",Locale.US);
 	
 	}
 	
@@ -72,6 +71,7 @@ public class Registration_page {
 	
 	
 	public void verify(String Actual, int i,int j) throws IOException {
+
 		
 		String Expected = refTo_PoiExcelMethods.getCellData("Khaddi", "Expected", j);
 

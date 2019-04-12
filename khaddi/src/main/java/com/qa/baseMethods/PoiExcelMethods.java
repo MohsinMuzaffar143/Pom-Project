@@ -24,7 +24,6 @@ public class PoiExcelMethods {
 	
 	public void getfile() throws IOException {
 
-		System.out.println(System.getProperty("user.dir"));
 		// Giving the path of Ecxel sheet
 		//path = "/src.tests.resourses/com.qa.TestsData/khaddiTestdata.xlsx";
 		path = System.getProperty("user.dir") + "\\src.tests.resourses\\com\\qa\\TestsData\\khaddiTestdata.xlsx";
