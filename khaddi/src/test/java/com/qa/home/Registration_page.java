@@ -7,7 +7,6 @@ import java.util.ResourceBundle;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
 public class Registration_page {
 	ResourceBundle element;
 	WebDriver driver1; 
