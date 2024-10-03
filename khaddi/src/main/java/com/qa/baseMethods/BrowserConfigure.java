@@ -13,7 +13,7 @@ public class BrowserConfigure {
 public  WebDriver driver;
 	
 	
-	//@BeforeMethod
+	@BeforeMethod
 	public WebDriver generateDriverInstance() {
 		
 		
